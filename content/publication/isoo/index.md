@@ -1,13 +1,10 @@
 ---
-title: "What Do Single-view 3D Reconstruction Networks Learn?"
+title: "ISOO_DL^V2 - Semantic Instance Segmentation of Touching and Overlapping Objects"
 authors:
-- Maxim Tatarchenko*
-- Stephan R. Richter*
-- Rene Ranftl
-- Zhuwen Li
-- Vladlen Koltun
-- Thomas Brox
-date: "2019-06-01T00:00:00Z"
+- Anton Böhm
+- Maxim Tatarchenko
+- Thorsten Falk
+date: "2019-04-01T00:00:00Z"
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 doi: ""
@@ -22,20 +19,20 @@ publishDate: ""
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Conference on Computer Vision and Pattern Recognition 2019*
-publication_short: In *CVPR*
+publication: In *IEEE International Symposium on Biomedical Imaging 2019*
+publication_short: In *ISBI*
 
-abstract: Convolutional networks for single-view object reconstruction have shown impressive performance and have become a popular subject of research. All existing techniques are united by the idea of having an encoder-decoder network that performs non-trivial reasoning about the 3D structure of the output space. In this work, we set up two alternative approaches that perform image classification and retrieval respectively. These simple baselines yield better results than state-of-the-art methods, both qualitatively and quantitatively. We show that encoder-decoder methods are statistically indistinguishable from these baselines, thus indicating that the current state of the art in single-view object reconstruction does not actually perform reconstruction but image classification. We identify aspects of popular experimental procedures that elicit this behavior and discuss ways to improve the current state of research.
+abstract: We present ISOO_DL^V2 - a method for semantic instance segmentation of touching and overlapping objects. We introduce a series of design modifications to the prior framework, including a novel mixed 2D-3D segmentation network and a simplified post-processing procedure which enables segmentation of touching objects without relying on object detection. For the case of overlapping objects where detection is required, we upgrade the bounding box parametrization and allow for smaller reference point distances. All these novelties lead to substantial performance improvements and enable the method to deal with a wider range of challenging practical situations. Additionally, our framework can handle object sub-part segmentation. We evaluate our approach on both real-world and synthetically generated biological datasets and report state-of-the-art performance.
 
 # Summary. An optional shortened abstract.
-summary: CVPR 2019
+summary: ISBI 2019
 
 tags: []
 featured: true
 
 links:
-url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2019/TB19/paper-s3d.pdf
-url_code: 'https://github.com/lmb-freiburg/what3d'
+url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2019/BTF19/paper.pdf
+# url_code: 'https://github.com/lmb-freiburg/mv3d'
 # url_dataset: ''
 # url_poster: ''
 # url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
