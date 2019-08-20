@@ -5,7 +5,7 @@ authors:
 - Maxim Tatarchenko
 - Thomas Brox
 - Wolfram Burgard
-date: "2019-11-01T00:00:00Z"
+date: "2019-08-01T00:00:00Z"
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 doi: ""
