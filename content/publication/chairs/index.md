@@ -1,10 +1,11 @@
 ---
-title: "Multi-view 3D Models from Single Images with a Convolutional Network"
+title: "Learning to Generate Chairs, Tables and Cars with Convolutional Networks"
 authors:
-- Maxim Tatarchenko
 - Alexey Dosovitskiy
+- Jost Tobias Springenberg
+- Maxim Tatarchenko
 - Thomas Brox
-date: "2016-10-01T00:00:00Z"
+date: "2017-04-01T00:00:00Z"
 share: false  # Show social sharing links?
 profile: false  # Show author profile?
 doi: ""
@@ -16,26 +17,26 @@ publishDate: ""
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["1"]
+publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *European Conference on Computer Vision 2016*
-publication_short: In *ECCV*
+publication: In *IEEE Transactions on Pattern Analysis and Machine Intelligence 2017*
+publication_short: In *TPAMI*
 
 abstract: We present a convolutional network capable of inferring a 3D representation of a previously unseen object given a single image of this object. Concretely, the network can predict an RGB image and a depth map of the object as seen from an arbitrary view. Several of these depth maps fused together give a full point cloud of the object. The point cloud can in turn be transformed into a surface mesh. The network is trained on renderings of synthetic 3D models of cars and chairs. It successfully deals with objects on cluttered background and generates reasonable predictions for real images of cars.
 
 # Summary. An optional shortened abstract.
-summary: ECCV 2016 (Spotlight oral)
+summary: TPAMI 2017
 
 tags: []
 featured: true
 
 links:
-url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2016/TDB16a/paper-mv3d.pdf
-url_code: 'https://github.com/lmb-freiburg/mv3d'
+url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2017/DTB17/Chairs_PAMI.pdf
+# url_code: 'https://github.com/lmb-freiburg/mv3d'
 # url_dataset: ''
 # url_poster: ''
-url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
+# url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
 # url_slides: ''
 # url_source: ''
 # url_video: ''
