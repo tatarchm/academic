@@ -28,7 +28,7 @@ education:
   courses:
   - course: PhD in Computer Vision
     institution: University of Freiburg
-    year: 2019
+    year: now
   - course: MSc in Computer Science
     institution: University of Freiburg
     year: 2015
