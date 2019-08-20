@@ -1,8 +1,9 @@
 ---
-title: "An example conference paper"
+title: "Multi-view 3D Models from Single Images with a Convolutional Network"
 authors:
-- admin
-- Robert Ford
+- Maxim Tatarchenko
+- Alexey Dosovitskiy
+- Thomas Brox
 date: "2013-07-01T00:00:00Z"
 doi: ""
 
@@ -16,10 +17,10 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: In *Source Themes Conference*
-publication_short: In *STC*
+publication: In *European Conference on Computer Vision*
+publication_short: In *ECCV*
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: We present a convolutional network capable of inferring a 3D representation of a previously unseen object given a single image of this object. Concretely, the network can predict an RGB image and a depth map of the object as seen from an arbitrary view. Several of these depth maps fused together give a full point cloud of the object. The point cloud can in turn be transformed into a surface mesh. The network is trained on renderings of synthetic 3D models of cars and chairs. It successfully deals with objects on cluttered background and generates reasonable predictions for real images of cars.
 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -29,16 +30,14 @@ tags:
 featured: true
 
 links:
-- name: Custom Link
-  url: http://example.org
-url_pdf: http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf
-url_code: '#'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2016/TDB16a/paper-mv3d.pdf
+url_code: 'https://github.com/lmb-freiburg/mv3d'
+# url_dataset: ''
+# url_poster: ''
+url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
+# url_slides: ''
+# url_source: ''
+# url_video: ''
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
@@ -52,24 +51,12 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-- internal-project
+projects: []
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
-
-{{% alert note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /alert %}}
-
-{{% alert note %}}
-Click the *Slides* button above to demo Academic's Markdown slides feature.
-{{% /alert %}}
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
-
