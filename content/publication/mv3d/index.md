@@ -4,6 +4,9 @@ authors:
 - Maxim Tatarchenko
 - Alexey Dosovitskiy
 - Thomas Brox
+date: "2016-10-01T00:00:00Z"
+share: false  # Show social sharing links?
+profile: false  # Show author profile?
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
