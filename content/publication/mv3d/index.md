@@ -4,7 +4,7 @@ authors:
 - Maxim Tatarchenko
 - Alexey Dosovitskiy
 - Thomas Brox
-date: "2013-07-01T00:00:00Z"
+date: ""
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
@@ -25,8 +25,7 @@ abstract: We present a convolutional network capable of inferring a 3D represent
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags:
-- Source Themes
+tags: []
 featured: true
 
 links:
@@ -42,7 +41,7 @@ url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ""
   preview_only: false
 
