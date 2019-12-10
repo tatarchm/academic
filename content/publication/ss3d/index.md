@@ -39,7 +39,7 @@ url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2019/TB19a/ss3d_pap
 # url_project: 'https://lmb.informatik.uni-freiburg.de/people/tatarchm/mv3d/'
 # url_slides: ''
 # url_source: ''
-# url_video: ''
+url_video: 'https://www.youtube.com/watch?v=oQgHG9JdMP4'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
