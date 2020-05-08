@@ -22,7 +22,7 @@ date_format = "Jan 2006"
   company = "Bosch Center for Artificial Intelligence (BCAI)"
   company_url = ""
   location = "Renningen, Germany"
-  date_start = "2016-01-23"
+  date_start = "2020-05-01"
   date_end = ""
   description = ""
 
