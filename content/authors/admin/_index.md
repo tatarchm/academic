@@ -10,11 +10,11 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD Student in Computer Vision
+role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: University of Freiburg
+- name: Bosch Center for Artificial Intelligence
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
