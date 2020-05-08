@@ -66,4 +66,4 @@ user_groups:
 - Visitors
 ---
 
-I am a fourth year PhD student at the Computer Vision Lab of the Freiburg University supervised by Prof. Dr.-Ing. Thomas Brox. My current research is mostly concerned with 3D deep learning. In 2017 I interned at the Intel Intelligent Systems Lab with Dr. Vladlen Koltun. I received my MSc in Computer Science from the University of Freiburg in 2015, and a BSc in Applied Mathematics from Russian State Technological University 'MATI' in 2011.
+I am a research scientist at the Bosch Center For AI in Renningen. Prior to that, I've worked on my PhD at the Freiburg University supervised by Prof. Dr.-Ing. Thomas Brox. My research there was mostly concerned with 3D deep learning. In 2017 I interned at the Intel Intelligent Systems Lab with Dr. Vladlen Koltun. I received my MSc in Computer Science from the University of Freiburg in 2015, and a BSc in Applied Mathematics from Russian State Technological University 'MATI' in 2011.
