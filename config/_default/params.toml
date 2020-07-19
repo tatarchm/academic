@@ -60,7 +60,7 @@ time_format = "3:04 PM"
 # Enter contact details (optional). To hide a field, clear it to "".
 email = "tatarchm@gmail.com"
 phone = "+49 157 8815 9993"
-address = "Georges-Köhler-Allee 052, 01-041<br>79110, Freiburg"
+# address = "Georges-Köhler-Allee 052, 01-041<br>79110, Freiburg"
 
 # Office hours: use `<br>` to insert a line break, or set to "" to remove office hours
 # office_hours = """Monday 10:00 to 13:00<br>
