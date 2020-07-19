@@ -14,7 +14,7 @@ role: Research Scientist
 
 # Organizations/Affiliations
 organizations:
-- name: Bosch Center for Artificial Intelligence
+- name: Bosch Center for AI
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
