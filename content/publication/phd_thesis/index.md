@@ -17,7 +17,7 @@ publishDate: ""
 publication_types: ["7"]
 
 # Publication name and optional abbreviated publication name.
-# publication: In *IEEE International Conference on Computer Vision and Pattern Recognition 2019*
+publication: 
 # publication_short: In *CVPR*
 
 abstract: In recent years, deep convolutional neural networks (CNNs) have achieved remarkable success in most 2D image processing tasks. Still, the direct processing of 3D data, not only their 2D projections, is required in many applications. Naive extensions of 2D deep learning techniques into 3D rely on voxel grids which are inefficient due to their cubic complexity and thus only support prohibitively low resolutions. Therefore, it is crucially important to develop dedicated 3D deep learning algorithms that operate on efficient 3D representations like point clouds and octrees. The algorithm design depends on the task type: in analysis tasks the 3D geometry is given as input and needs to be processed efficiently, while in synthesis tasks the 3D geometry has to be generated from an abstract representation.
