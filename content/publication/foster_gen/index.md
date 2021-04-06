@@ -32,7 +32,7 @@ tags: []
 featured: true
 
 links:
-# url_pdf: https://lmb.informatik.uni-freiburg.de/Publications/2019/TB19/paper-s3d.pdf
+url_pdf: https://arxiv.org/pdf/2104.00476.pdf
 # url_code: 'https://github.com/lmb-freiburg/what3d'
 # url_dataset: ''
 # url_poster: ''
